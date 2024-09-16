@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Responsive Website</title>
+</head>
+<body>
+    <header>
+        <div class="header_container container">
+            <a href="#" class="logo">Feane</a>
+    <nav class="navbar" >     
+     <ul class="menu">
+        <li class="list"><a href="#hero" class="active">Home</a></li>
+        <li class="list"><a href="#menu">Menu</a></li>
+         <li class="list"><a href="#about">About</a></li>
+         <li class="list"><a href="#book">book Table</a></li>
+         <i width:100 class="bx bx-x close_icon"></i>
+         <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M21.822 7.431A1 1 0 0 0 21 7H7.333L6.179 4.23A1.994 1.994 0 0 0 4.333 3H2v2h2.333l4.744 11.385A1 1 0 0 0 10 17h8c.417 0 .79-.259.937-.648l3-8a1 1 0 0 0-.115-.921zM17.307 15h-6.64l-2.5-6h11.39l-2.25 6z"></path><circle cx="10.5" cy="19.5" r="1.5"></circle><circle cx="17.5" cy="19.5" r="1.5"></circle></svg>
+         <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M19.023 16.977a35.13 35.13 0 0 1-1.367-1.384c-.372-.378-.596-.653-.596-.653l-2.8-1.337A6.962 6.962 0 0 0 16 9c0-3.859-3.14-7-7-7S2 5.141 2 9s3.14 7 7 7c1.763 0 3.37-.66 4.603-1.739l1.337 2.8s.275.224.653.596c.387.363.896.854 1.384 1.367l1.358 1.392.604.646 2.121-2.121-.646-.604c-.379-.372-.885-.866-1.391-1.36zM9 14c-2.757 0-5-2.243-5-5s2.243-5 5-5 5 2.243 5 5-2.243 5-5 5z"></path></svg>
+         <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M7.5 6.5C7.5 8.981 9.519 11 12 11s4.5-2.019 4.5-4.5S14.481 2 12 2 7.5 4.019 7.5 6.5zM20 21h1v-1c0-3.859-3.141-7-7-7h-4c-3.86 0-7 3.141-7 7v1h17z"></path></svg>                  
+         <button class="btn">Order Online</button>
+        </ul>
+        <i class="bx bx-menu toggle_icon"></i>
+    </nav>
+</div>
+</header>
+<section class="hero" id="hero">
+    <div class="hero_container container ">
+    <div>
+        <div class="hero_content-item">
+           <h1>Fast Food Restaurant</h1> 
+           <p>Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad<br>
+            mollitia laborum quam quisquam esse error unde. Tempora ex doloremque, labore,<br>
+            sunt repellat dolore, iste magni quos nihil ducimus libero ipsam.<br></p>
+          <button class="btn">Order Online</button>
+        </div>
+    </div>
+</div>
+</section>
+
+<section class="offer">
+    <div class="container">
+        <div class="offer-wrapper">
+            <div class="item">
+                <div class="offer-imgBox">
+                    <img src="./assest/images/o1.jpg" alt="burger1" class="image_fluid">
+                </div>
+                <div class="offer_content">
+                    <h3>Tasty Thursdays</h3>
+                    <span class="off"><b>20%</b> Off</span>
+                    <a href="" class="btn">Order Now <i class='bx bxs-cart'></i></a>
+                </div>
+            </div>
+            <div class="item">
+                <div class="offer-imgBox">
+                    <img src="./assest/images/o2.jpg" alt="pizza" class="image_fluid">
+                </div>
+                <div class="offer_content">
+                    <h3>Pizza Days</h3>
+                    <span class="off"><b>15%</b> Off</span>
+                    <a href="" class="btn">Order Now <i class='bx bxs-cart'></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="food" id="menu">
+    <h2 class="section_tittle">Our Menu</h2>
+    <ul>
+        <li class="filter active" data-filter=".all">All</li>
+        <li class="filter" data-filter=".burger">burger</li>
+        <li class="filter" data-filter=".pizza">Pizza</li>
+        <li class="filter" data-filter=".pizza">Pasta</li>
+        <li class="filter" data-filter=".fries">Fries</li>
+    </ul>
+    <div class="food_container container">
+        <div class="food_item pizza">
+            <div class="food_imgBox">
+           <img src="assest/images/f1.png" alt="" class="img_fluid">
+            </div>
+<div class="food_content">
+    <h3>Delicious Pizza</h3>
+    <p>Veniam debitis quaerat officiis quasi
+        cupiditate quo, quisquam velit, magna
+        voluptatem repellendus sed eaque</p>
+        <div class="food_footer">
+            <span>20%</span>
+            <a href="#" class="icon"><i class='bx bxs-cart'></i></a>
+        </div>
+
+</div>
+        </div>
+
+        <div class="food_item burger">
+            <div class="food_imgBox">
+           <img src="assest/images/f2.png" alt="" class="img_fluid">
+            </div>
+<div class="food_content">
+    <h3>Delicious burger</h3>
+    <p>Veniam debitis quaerat officiis quasi
+        cupiditate quo, quisquam velit, magna
+        voluptatem repellendus sed eaque</p>
+        <div class="food_footer">
+            <span>10%</span>
+            <a href="#" class="icon"><i class='bx bxs-cart'></i></a>
+        </div>
+
+</div>
+        </div>
+
+
+        <div class="food_item pizza">
+            <div class="food_imgBox">
+           <img src="assest/images/f3.png" alt="" class="img_fluid">
+            </div>
+<div class="food_content">
+    <h3>Delicious pizza</h3>
+    <p>Veniam debitis quaerat officiis quasi
+        cupiditate quo, quisquam velit, magna
+        voluptatem repellendus sed eaque</p>
+        <div class="food_footer">
+            <span>10%</span>
+            <a href="#" class="icon"><i class='bx bxs-cart'></i></a>
+        </div>
+
+</div>
+        </div>
+        
+        <div class="food_item Pasta">
+            <div class="food_imgBox">
+           <img src="assest/images/f4.png" alt="" class="img_fluid">
+            </div>
+<div class="food_content">
+    <h3>Delicious Pasta</h3>
+    <p>Veniam debitis quaerat officiis quasi
+        cupiditate quo, quisquam velit, magna
+        voluptatem repellendus sed eaque</p>
+        <div class="food_footer">
+            <span>15%</span>
+            <a href="#" class="icon"><i class='bx bxs-cart'></i></a>
+        </div>
+
+</div>
+        </div>
+
+        <div class="food_item fries">
+            <div class="food_imgBox">
+           <img src="assest/images/f5.png" alt="" class="img_fluid">
+            </div>
+<div class="food_content">
+    <h3>Delicious fries</h3>
+    <p>Veniam debitis quaerat officiis quasi
+        cupiditate quo, quisquam velit, magna
+        voluptatem repellendus sed eaque</p>
+        <div class="food_footer">
+            <span>24$</span>
+            <a href="#" class="icon"><i class='bx bxs-cart'></i></a>
+        </div>
+
+</div>
+        </div>
+
+        <div class="food_item pizza">
+            <div class="food_imgBox">
+           <img src="assest/images/f6.png" alt="" class="img_fluid">
+            </div>
+<div class="food_content">
+    <h3>Delicious pizza</h3>
+    <p>Veniam debitis quaerat officiis quasi
+        cupiditate quo, quisquam velit, magna
+        voluptatem repellendus sed eaque</p>
+        <div class="food_footer">
+            <span>22$</span>
+            <a href="#" class="icon"><i class='bx bxs-cart'></i></a>
+        </div>
+
+</div>
+        </div>
+
+
+        <div class="food_item burger">
+            <div class="food_imgBox">
+           <img src="assest/images/f7.png" alt="" class="img_fluid">
+            </div>
+<div class="food_content">
+    <h3>Delicious burger</h3>
+    <p>Veniam debitis quaerat officiis quasi
+        cupiditate quo, quisquam velit, magna
+        voluptatem repellendus sed eaque</p>
+        <div class="food_footer">
+            <span>22$</span>
+            <a href="#" class="icon"><i class='bx bxs-cart'></i></a>
+        </div>
+
+</div>
+        </div>
+
+        <div class="food_item burger">
+            <div class="food_imgBox">
+           <img src="assest/images/f8.png" alt="" class="img_fluid">
+            </div>
+<div class="food_content">
+    <h3>Delicious burger</h3>
+    <p>Veniam debitis quaerat officiis quasi
+        cupiditate quo, quisquam velit, magna
+        voluptatem repellendus sed eaque</p>
+        <div class="food_footer">
+            <span>22$</span>
+            <a href="#" class="icon"><i class='bx bxs-cart'></i></a>
+        </div>
+
+</div>
+        </div>
+
+        <div class="food_item pasta">
+            <div class="food_imgBox">
+           <img src="assest/images/f9.png" alt="" class="img_fluid">
+            </div>
+<div class="food_content">
+    <h3>Delicious pasta</h3>
+    <p>Veniam debitis quaerat officiis quasi
+        cupiditate quo, quisquam velit, magna
+        voluptatem repellendus sed eaque</p>
+        <div class="food_footer">
+            <span>18$</span>
+            <a href="#" class="icon"><i class='bx bxs-cart'></i></a>
+        </div>
+
+</div>
+        </div>
+    </div>
+
+    <div class="mid btn"  >
+        <a href="" class="button">view more</a>
+    </div>
+
+</section>
+
+
+<section class="about" id="about">
+
+    <div class="about_container container ">
+        <div class="about_imgBox">
+            <img src="assest/images/about-img.png" alt="" class="image_fluid">
+
+        </div>
+        <div class="about_content">
+            <h2 class="section_title">we Are Feane</h2>
+            <p>There are many variations of passages of Lorem Ipsum available, but the
+                majority have suffered alteration in some form, by injected humour, or
+                randomised words which don't look even slightly believable. If you are
+                going to use a passage of Lorem Ipsum, you need to be sure there isn't
+                anything embarrassing hidden in the middle of text. All</p>
+<button class="btn">Read more</button>
+
+
+        </div>
+
+    </div>
+</section>
+
+<section class="book" id="book">
+    <h2 class="section_title">Book A Table</h2>
+    <div class="book_container container">
+    <div class="form_container">
+    <input type="text" placeholder="Your Name">
+    <input type="number" placeholder="Phone Number">
+    <input type="text" placeholder="Your Email">
+    <div class="select">
+    <span>How many persons?</span>
+    <ul class="list">
+    <li data-value class="option">How many person?</li>
+    <li data-value class="option">1</li>
+    <li data-value class="option">2</li>
+    <li data-value class="option">3</li>
+    <li data-value class="option">4</li>
+    <li data-value class="option">5</li>
+    </ul>
+    </div>
+    <input type="date">
+    <button class="btn">Book Now</button>
+    </div>
+    <div class="map_container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27090.3260946626!2d35.9006208!3d31.925862400000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151ca0ebe1f2a9e3%3A0xa0f1cb0956ab7d75!2z2KrYp9isINmF2YjZhA!5e0!3m2!1sar!2sjo!4v1726501953595!5m2!1sar!2sjo" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    </div>
+</section>
+
+<!-- =========== Client section =============-->
+<section class="client">
+    <h2 class="section_title">What Says Our Customers</h2>
+    <div class="client_container container">
+        <div class="client_item">
+            <div class="client_content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                <h3>Moana Michell</h3>
+                <samp>magna aliqua</samp>
+            </div>
+            <div class="client_img">
+                <img src="assest/images/client1.jpg" alt="" class="image_fluid">
+            </div>
+        </div>
+
+        <div class="client_item">
+            <div class="client_content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                <h3>Mike Hamell</h3>
+                <samp>magna aliqua</samp>
+            </div>
+            <div class="client_img">
+                <img src="assest/images/client2.jpg" alt="" class="image_fluid">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+<section  Class="footer">
+    <div Class="footer_container container">
+         <div class="footer_content">
+            <h3>Contact Us</h3>
+            <ul>
+                <li><i class='bx bxs-location-plus'></i>Location</li>
+                <li><i class="bx bxs-phone"></i>Call +01 123 456 789 </li>
+                <li><i class="bx bxs-envelope"></i>demo@gmail.com </li>
+                </ul>
+         </div>
+         <div class="footer_detail">
+            <h3>Feane</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse iusto quas in harum maiores labor
+                <div class="social_link">
+                    <a href="#"><i class='bx bxl-facebook' ></i></a>
+                    <a href="#"><i class='bx bxl-twitter' ></i></a>
+                    <a href="#"><i class='bx bxl-linkedin' ></i></a>
+                    <a href="#"><i class='bx bxl-instagram' ></i></a>
+                    <a href="#"><i class='bx bxl-instagram' ></i></a>
+                </div>
+         </div>
+         <div class="footer_time">
+            <h3>Opening Hours</h3>
+            <span>Everyday</span>
+            <span>10:00 Am -10:00pm</span>
+         </div>
+    </div>
+    <div class="footer_info">
+        <p>&#169; 2022 All Rights By Linecode</p>
+    </div>
+    </div>
+  </section>
+
+
+</body>
+</html>
